@@ -1,0 +1,213 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <style>
+        body {
+		  padding-top: 50px;
+		  padding-bottom: 20px;
+		}
+      </style>
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/main.css">
+    </head>   
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">BEST SELLERS</a></li>
+            <li><a href="#band">eBOOKS</a></li>
+            <li><a href="#tour">YOUTH</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">TEXTBOOKS
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Used</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Buy back</a></li> 
+              </ul>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/32booksSlider.png" width="1044" height="432" alt=""/>
+      </div>
+  
+      <div class="item">
+        <img src="img/ebooksSlider.png" width="1044" height="432" alt=""/> 
+      </div>
+      <div class="item">
+        <img src="img/thrillersSlider.png" width="1044" height="432" alt=""/> 
+      </div>
+      <div class="item">
+        <img src="img/youthBooksSlider.png" width="1044" height="432" alt=""/>   
+      </div> 
+    </div>
+
+  <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    <div class="container text-center">
+      <h1>Cozy Corner Bookshop</h1>
+      <p><em>Relax and Enjoy</em></p>
+    </div>
+    <div class="container text-center">
+      <!-- Example row of columns -->
+      <div class="row bg-1">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="img/bestSeller.png" class="book" width="300" height="300" alt=""/> 
+            <button class="accordion">Best Sellers</button>
+            <div class="panel">
+              <p>Top 100</p>
+              <p>Customer Favorites</p>
+              <p>Coming Soon</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Order Now(form)</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="img/textbooks.png" class="book" width="300" height="300" alt=""/>
+            <button class="accordion">Textbooks</button>
+            <div class="panel">
+              <p>Rent</p>
+              <p>Used</p>
+              <p>New</p>
+              <p>Buyback</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Order Now(form)</button>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="img/ereader.png" class="book" width="300" height="300" alt=""/> 
+            <button class="accordion">eBooks</button>
+            <div class="panel">
+              <p>Fiction</p>
+              <p>Romance</p>
+              <p>Mystery and Crime</p>
+              <p>Accessories</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Order Now(form)</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="img/youthBooks.png" class="book" width="300" height="300" alt=""/>
+            <button class="accordion">Youth</button>
+            <div class="panel">
+              <p>Best Series</p>
+              <p>New Releases</p>
+              <p>Coming Soon</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Order Now(form)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4><span></span>  Order Your Books Today</h4>
+            </div>
+           
+            <div class="modal-body">
+              <form role="form">
+                <div class="form-group">
+                  <label for="psw"><span class="glyphicon glyphicon-lock"></span> Book Title</label>
+                  <input type="text" class="form-control" id="psw" placeholder="Book Title">
+                </div>
+                <div class="form-group">
+                  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                </div>
+                <button type="submit" class="btn btn-block">Pay 
+                  <span class="glyphicon glyphicon-ok"></span>
+                </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                <span class="glyphicon glyphicon-remove"></span> Cancel
+              </button>
+              <p>Need <a href="#">help?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
+      <footer class="block text-center">
+        <p>Alison Butterfield&nbsp; <span class="glyphicon glyphicon-book"></span><a href="#" data-toggle="tooltip" title="">&nbsp; cozycorner.com </a></p>
+        <p id="demo"></p> 
+  		<script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toDateString();
+        </script>
+      </footer>
+      <script>
+	$(document).ready(function(){
+		// Initialize Tooltip
+		$('[data-toggle="tooltip"]').tooltip(); 
+	})
+	  </script><!-- /container -->        
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+	  <script src="js/main.js"></script>
+      <script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].onclick = function(){
+			this.classList.toggle("active");
+			this.nextElementSibling.classList.toggle("show");
+		  }
+		}
+	  </script>
+    </body>
+</html>
